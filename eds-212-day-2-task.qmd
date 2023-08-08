@@ -8,3 +8,27 @@ title: "eds-212-day-2-task"
 library(tidyverse)
 library(palmerpenguins)
 ```
+
+## Finding derivative expression and slope
+
+```{r}
+# A
+fx = expression(x ^ 2)
+
+dfdx = D(fx, 'x')
+
+x = 3
+
+eval(dfdx)
+```
+
+```{r}
+# B 
+Pa = expression(2 * (3 * a + 2) ^ 4 - 5)
+
+dPda = D(Pa, 'a')
+
+a = 1.2
+
+eval(dPda)
+```
