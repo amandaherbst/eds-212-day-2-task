@@ -57,3 +57,5 @@ ggplot(data = penguins,
        title = "Penguin Species Flipper Length") + 
   theme_minimal()
 ```
+
+## Practicing staging, committing, pulling, and pushing!
