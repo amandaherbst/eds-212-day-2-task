@@ -1,0 +1,10 @@
+---
+title: "eds-212-day-2-task"
+---
+
+## Day 2 Task
+
+```{r}
+library(tidyverse)
+library(palmerpenguins)
+```
